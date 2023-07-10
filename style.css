@@ -4,6 +4,20 @@
     padding: 0px;
 }
 
+.primary-btn{
+    background-color: red;
+    color: white;
+    padding: 10px;
+    border: 0px;
+}
+
+.secondary-btn{
+        background-color: gray;
+        color: black;
+        padding: 10px;
+        border: 0px;
+
+}
 
 /* Nav bar style start here */
 
@@ -30,3 +44,35 @@
     font-size: 20px;
 }
 
+/* banner container style start here */
+
+.banner-container{
+    height: 100vh;
+    width: 100%;
+    background-image: url("./asset/image/background.jpg"), linear-gradient(rgb(87, 85, 85)
+    , rgb(92, 92, 94));
+    background-blend-mode: overlay;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+.banner-info{
+    width: 80%;
+    margin: 0px auto;
+}
+
+.banner-title{
+    color: white;
+    font-weight: bolder;
+    font-size: 50px;
+}
+
+.banner-des{
+    width: 80%;
+    margin: 0 auto;
+    padding: 10px 0px 10px 0px;
+    color: white;
+    font-size: 20px;
+}
