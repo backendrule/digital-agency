@@ -1,0 +1,32 @@
+/* Common Shared Style */
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+
+/* Nav bar style start here */
+
+.menus{
+    display: flex;
+    justify-content: space-around;
+    background-color: gray;
+    align-items: center;
+    padding: 15px;
+}
+
+.menu-item > ul{
+    display: flex;
+}
+
+.menu-item ul > li{
+    list-style: none;
+    margin: 0px 50px 0px 0px;
+}
+
+.menu-item ul > li a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+}
+
